@@ -35,7 +35,6 @@ tracks/1/keys = {
 [node name="Background" type="ParallaxBackground"]
 
 [node name="backgroundImage" type="ParallaxLayer" parent="."]
-position = Vector2( -148.967, 0 )
 motion_mirroring = Vector2( 220, 0 )
 
 [node name="TextureRect" type="TextureRect" parent="backgroundImage"]
@@ -49,7 +48,6 @@ __meta__ = {
 }
 
 [node name="FloorImagem" type="ParallaxLayer" parent="."]
-position = Vector2( -148.967, 0 )
 motion_mirroring = Vector2( 220, 0 )
 
 [node name="TextureRect" type="TextureRect" parent="FloorImagem"]
