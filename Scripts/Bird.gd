@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 signal increase_score
+signal game_over 
 
 export var gravity = 400
 export var jump_speed = -200
@@ -23,3 +24,9 @@ func increase_score():
 	score += 1 
 	emit_signal("increase_score", score)
 	#print(score)
+
+
+
+func on_kill_bird():
+	set_physics_process(false)
+	emit_signal("game_over")
